@@ -4,16 +4,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Optional background color */
+    background-color: #ffffff; /* Optional background color */
 }
 div {
-    background-color: white; /* Optional background color for the div */
+    background-color: rgb(0, 0, 0); /* Optional background color for the div */
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 h1 {
     font-size: 23px;
+    color: white;
     margin: 7px -15px 24px 12px;
     padding: 10px;
 }
@@ -22,16 +23,18 @@ input {
     margin-bottom: 20px;
     padding: 8px;
     height: 20px;
+    background-color: transparent;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 4px;
 }
 button {
     padding: 20px;
-    padding: 10px;
-    width: 100%;
+    padding: 9px;
+    width: 47%;
     border: none;
-    border-radius: 4px;
+    margin-left: 51px;
+    border-radius: 17px;
     background-color: #007bff;
     color: white;
     cursor: pointer;
