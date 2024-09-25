@@ -9,7 +9,7 @@ body {
 div {
     background-color: rgb(0, 0, 0); /* Optional background color for the div */
     padding: 50px;
-    border-radius: 8px;
+    border-radius: 18px 0px 18px 0px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 h1 {
