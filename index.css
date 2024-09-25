@@ -23,7 +23,7 @@ input {
     margin-bottom: 20px;
     padding: 8px;
     height: 20px;
-    color: wheat;
+    color: rgb(255, 255, 255);
     background-color: transparent;
     width: 100%;
     border: 1px solid #ffffff;
@@ -44,13 +44,42 @@ button:active {
     background-color: #ffffff;
     color: black;
 }
-#text2{
-    display: none;
-    padding: 20px;
-    margin-bottom: 20px;
+#taskList {
     padding: 8px;
-    height: 20px;
-    width: 100%;
-    border: 1px solid #050505;
+    margin-bottom: -27px;
+    color: rgb(255, 255, 255);
     border-radius: 4px;
+    list-style-type: none;
+    min-height: 40px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+li{
+    display: none;
+    border: 1px solid #ffffff;
+    padding: 50px;
+    
+    padding: 10px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    
+}
+
+.remove-btn {
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    padding-bottom: 20px;
+    border: none;
+    width: 67px;
+    height: 27px;
+    display: inline;
+    position: relative;
+    cursor: pointer;
+    float: right;
+}
+
