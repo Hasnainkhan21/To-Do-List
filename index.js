@@ -16,7 +16,7 @@ function getOutput() {
     remove.className = 'remove-btn';
     remove.onclick = function () {
         y.removeChild(li);
-        // y.style.display = 'none';
+      
     };
 
     li.onclick = function () {

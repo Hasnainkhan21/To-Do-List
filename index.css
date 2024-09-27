@@ -73,7 +73,7 @@ li{
 }
 
 .remove-btn {
-    background-color: crimson;
+    background-color: rgb(240, 32, 74);
     color: white;
     position: absolute;
     padding-bottom: 20px;
