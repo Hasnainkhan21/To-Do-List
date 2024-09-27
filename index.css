@@ -24,8 +24,9 @@ input {
     padding: 8px;
     height: 20px;
     color: rgb(255, 255, 255);
+    
     background-color: transparent;
-    width: 100%;
+    width: 200px;
     border: 1px solid #ffffff;
     border-radius: 4px;
 }
@@ -50,6 +51,7 @@ button:active {
     color: rgb(255, 255, 255);
     border-radius: 4px;
     list-style-type: none;
+    
     min-height: 40px;
     display: none;
     background-color: rgba(0, 0, 0, 0.5);
@@ -63,8 +65,9 @@ li{
     height: 20px;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    width: 100%;
+    width: 200px;
     border: 1px solid #ffffff;
+    overflow-y:auto;
     border-radius: 4px;
     
 }
