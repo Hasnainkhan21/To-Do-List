@@ -37,8 +37,8 @@ button {
     border: none;
     margin-left: 51px;
     border-radius: 17px;
-    background-color: #3eebb4;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 button:active {
